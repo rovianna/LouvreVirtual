@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F8F28B1F295C1D00238DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8F28A1F295C1D00238DDA /* AppDelegate.swift */; };
+		43F8F28D1F295C1D00238DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8F28C1F295C1D00238DDA /* ViewController.swift */; };
+		43F8F2901F295C1D00238DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F8F28E1F295C1D00238DDA /* Main.storyboard */; };
+		43F8F2921F295C1D00238DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F8F2911F295C1D00238DDA /* Assets.xcassets */; };
+		43F8F2951F295C1D00238DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F8F2931F295C1D00238DDA /* LaunchScreen.storyboard */; };
+		43F8F29D1F295EC900238DDA /* Journal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F8F29C1F295EC900238DDA /* Journal.ttf */; };
+		43F8F29F1F296C3900238DDA /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8F29E1F296C3900238DDA /* RadarViewController.swift */; };
+		43F8F2A11F296D0900238DDA /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8F2A01F296D0900238DDA /* RoundedImageView.swift */; };
+		43F8F2A31F2979A500238DDA /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8F2A21F2979A500238DDA /* Artwork.swift */; };
+		43F8F2A51F2979D400238DDA /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8F2A41F2979D400238DDA /* ArtViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43F8F2871F295C1D00238DDA /* LouvreVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LouvreVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F8F28A1F295C1D00238DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F8F28C1F295C1D00238DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F8F28F1F295C1D00238DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F8F2911F295C1D00238DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F8F2941F295C1D00238DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F8F2961F295C1D00238DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F8F29C1F295EC900238DDA /* Journal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Journal.ttf; sourceTree = "<group>"; };
+		43F8F29E1F296C3900238DDA /* RadarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
+		43F8F2A01F296D0900238DDA /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		43F8F2A21F2979A500238DDA /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		43F8F2A41F2979D400238DDA /* ArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F8F2841F295C1D00238DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F8F27E1F295C1D00238DDA = {
+			isa = PBXGroup;
+			children = (
+				43F8F2891F295C1D00238DDA /* LouvreVirtual */,
+				43F8F2881F295C1D00238DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F8F2881F295C1D00238DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F8F2871F295C1D00238DDA /* LouvreVirtual.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F8F2891F295C1D00238DDA /* LouvreVirtual */ = {
+			isa = PBXGroup;
+			children = (
+				43F8F29C1F295EC900238DDA /* Journal.ttf */,
+				43F8F2A21F2979A500238DDA /* Artwork.swift */,
+				43F8F2A41F2979D400238DDA /* ArtViewController.swift */,
+				43F8F28A1F295C1D00238DDA /* AppDelegate.swift */,
+				43F8F28C1F295C1D00238DDA /* ViewController.swift */,
+				43F8F2A01F296D0900238DDA /* RoundedImageView.swift */,
+				43F8F28E1F295C1D00238DDA /* Main.storyboard */,
+				43F8F29E1F296C3900238DDA /* RadarViewController.swift */,
+				43F8F2911F295C1D00238DDA /* Assets.xcassets */,
+				43F8F2931F295C1D00238DDA /* LaunchScreen.storyboard */,
+				43F8F2961F295C1D00238DDA /* Info.plist */,
+			);
+			path = LouvreVirtual;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F8F2861F295C1D00238DDA /* LouvreVirtual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F8F2991F295C1D00238DDA /* Build configuration list for PBXNativeTarget "LouvreVirtual" */;
+			buildPhases = (
+				43F8F2831F295C1D00238DDA /* Sources */,
+				43F8F2841F295C1D00238DDA /* Frameworks */,
+				43F8F2851F295C1D00238DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LouvreVirtual;
+			productName = LouvreVirtual;
+			productReference = 43F8F2871F295C1D00238DDA /* LouvreVirtual.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F8F27F1F295C1D00238DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Swift;
+				TargetAttributes = {
+					43F8F2861F295C1D00238DDA = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 43F8F2821F295C1D00238DDA /* Build configuration list for PBXProject "LouvreVirtual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F8F27E1F295C1D00238DDA;
+			productRefGroup = 43F8F2881F295C1D00238DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F8F2861F295C1D00238DDA /* LouvreVirtual */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F8F2851F295C1D00238DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F8F2951F295C1D00238DDA /* LaunchScreen.storyboard in Resources */,
+				43F8F2921F295C1D00238DDA /* Assets.xcassets in Resources */,
+				43F8F29D1F295EC900238DDA /* Journal.ttf in Resources */,
+				43F8F2901F295C1D00238DDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F8F2831F295C1D00238DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F8F2A51F2979D400238DDA /* ArtViewController.swift in Sources */,
+				43F8F2A31F2979A500238DDA /* Artwork.swift in Sources */,
+				43F8F2A11F296D0900238DDA /* RoundedImageView.swift in Sources */,
+				43F8F28D1F295C1D00238DDA /* ViewController.swift in Sources */,
+				43F8F28B1F295C1D00238DDA /* AppDelegate.swift in Sources */,
+				43F8F29F1F296C3900238DDA /* RadarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43F8F28E1F295C1D00238DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F8F28F1F295C1D00238DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F8F2931F295C1D00238DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F8F2941F295C1D00238DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F8F2971F295C1D00238DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F8F2981F295C1D00238DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F8F29A1F295C1D00238DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LouvreVirtual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swift.LouvreVirtual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43F8F29B1F295C1D00238DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LouvreVirtual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.swift.LouvreVirtual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F8F2821F295C1D00238DDA /* Build configuration list for PBXProject "LouvreVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F8F2971F295C1D00238DDA /* Debug */,
+				43F8F2981F295C1D00238DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F8F2991F295C1D00238DDA /* Build configuration list for PBXNativeTarget "LouvreVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F8F29A1F295C1D00238DDA /* Debug */,
+				43F8F29B1F295C1D00238DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F8F27F1F295C1D00238DDA /* Project object */;
+}

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Journal.ttf">
+            <string>Journal</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LouvreVirtual" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainScreen" translatesAutoresizingMaskIntoConstraints="NO" id="nts-hZ-7Xp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Louvre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5J-9p-WQw">
+                                <rect key="frame" x="0.0" y="20" width="320" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="0EQ-cl-Xgl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="118"/>
+                                <color key="textColor" red="1" green="1" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guia Virtual" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZp-5m-lYm">
+                                <rect key="frame" x="0.0" y="104" width="320" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="BCu-g4-6fM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="44"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3A-c0-5C8">
+                                <rect key="frame" x="0.0" y="508" width="320" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2HW-OD-wf3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="44"/>
+                                <state key="normal" title="Entrar">
+                                    <color key="titleColor" red="1" green="1" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Lbl-QN-VfO" kind="show" id="fnn-cU-1Qx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a5J-9p-WQw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3Qp-NI-S9P"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nts-hZ-7Xp" secondAttribute="bottom" id="6KZ-nv-5DI"/>
+                            <constraint firstItem="nts-hZ-7Xp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="75v-kf-jg1"/>
+                            <constraint firstItem="l3A-c0-5C8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8RS-Ij-xrg"/>
+                            <constraint firstAttribute="trailing" secondItem="l3A-c0-5C8" secondAttribute="trailing" id="9yC-A1-qJq"/>
+                            <constraint firstAttribute="trailing" secondItem="a5J-9p-WQw" secondAttribute="trailing" id="Lu5-RF-eFX"/>
+                            <constraint firstItem="FZp-5m-lYm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MwA-Iq-5AE"/>
+                            <constraint firstAttribute="trailing" secondItem="nts-hZ-7Xp" secondAttribute="trailing" id="PM0-gX-x0h"/>
+                            <constraint firstItem="FZp-5m-lYm" firstAttribute="top" secondItem="a5J-9p-WQw" secondAttribute="bottom" id="auH-9v-fgc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="l3A-c0-5C8" secondAttribute="bottom" constant="20" id="br0-0k-QMn"/>
+                            <constraint firstAttribute="trailing" secondItem="FZp-5m-lYm" secondAttribute="trailing" id="eed-23-HJo"/>
+                            <constraint firstItem="a5J-9p-WQw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="ekg-fh-iiR"/>
+                            <constraint firstItem="nts-hZ-7Xp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hgA-Mb-Qfl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Radar View Controller-->
+        <scene sceneID="B53-PI-Iso">
+            <objects>
+                <viewController id="Lbl-QN-VfO" customClass="RadarViewController" customModule="LouvreVirtual" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ra6-Ri-Lu9"/>
+                        <viewControllerLayoutGuide type="bottom" id="58Y-Ax-iz2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eH6-LC-92B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TourBg" translatesAutoresizingMaskIntoConstraints="NO" id="ulW-FV-IY7" customClass="RoundedImageView" customModule="LouvreVirtual" customModuleProvider="target">
+                                <rect key="frame" x="31" y="48" width="258" height="258"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="258" id="7b3-EK-fLy"/>
+                                    <constraint firstAttribute="width" secondItem="ulW-FV-IY7" secondAttribute="height" multiplier="1:1" id="DnU-03-QYO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="129"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.50196081400000003" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2m-B1-skY" userLabel="Radar">
+                                <rect key="frame" x="60" y="321" width="200" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RadarBack" translatesAutoresizingMaskIntoConstraints="NO" id="cyg-kh-Ylt">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RadarFront" translatesAutoresizingMaskIntoConstraints="NO" id="p7S-fN-CEa">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4YW-uE-1cY"/>
+                                    <constraint firstItem="p7S-fN-CEa" firstAttribute="leading" secondItem="f2m-B1-skY" secondAttribute="leading" id="4wp-V7-SPO"/>
+                                    <constraint firstAttribute="trailing" secondItem="p7S-fN-CEa" secondAttribute="trailing" id="CRh-iO-b3G"/>
+                                    <constraint firstItem="cyg-kh-Ylt" firstAttribute="top" secondItem="f2m-B1-skY" secondAttribute="top" id="FIf-wN-vQA"/>
+                                    <constraint firstItem="cyg-kh-Ylt" firstAttribute="leading" secondItem="f2m-B1-skY" secondAttribute="leading" id="ax5-bj-wHK"/>
+                                    <constraint firstAttribute="trailing" secondItem="cyg-kh-Ylt" secondAttribute="trailing" id="g1Y-IW-ih8"/>
+                                    <constraint firstAttribute="bottom" secondItem="cyg-kh-Ylt" secondAttribute="bottom" id="m4W-0k-Dst"/>
+                                    <constraint firstAttribute="width" secondItem="f2m-B1-skY" secondAttribute="height" multiplier="1:1" id="o5I-4l-2KY"/>
+                                    <constraint firstItem="p7S-fN-CEa" firstAttribute="top" secondItem="f2m-B1-skY" secondAttribute="top" id="sDc-4E-rAv"/>
+                                    <constraint firstAttribute="bottom" secondItem="p7S-fN-CEa" secondAttribute="bottom" id="yI1-7N-Kfo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NyE-gR-vGK" userLabel="Labels">
+                                <rect key="frame" x="0.0" y="336" width="320" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZ1-ir-DC8">
+                                        <rect key="frame" x="25" y="14" width="271" height="119"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Bem-vindo ao Museu do Louvre">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.83676938657407407" green="0.2902560763888889" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="60" name="Journal"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.5" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Encoste seu celular nos principais quadros para descobrir mais a respeito do nosso acervo" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq8-9h-hfz">
+                                        <rect key="frame" x="25" y="97" width="271" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="16"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="lUq-72-l19"/>
+                                </constraints>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mZW-68-nIS">
+                                <rect key="frame" x="136" y="517" width="51" height="31"/>
+                                <color key="onTintColor" red="0.8367693866" green="0.29025607640000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeRadar:" destination="Lbl-QN-VfO" eventType="valueChanged" id="gMP-31-GA4"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desligar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Frf-rz-D0j">
+                                <rect key="frame" x="15" y="515" width="109" height="35"/>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="30"/>
+                                <color key="textColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ligar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gE-9U-TmG">
+                                <rect key="frame" x="197" y="515" width="67" height="35"/>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="30"/>
+                                <color key="textColor" red="0.8367693866" green="0.29025607640000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NyE-gR-vGK" firstAttribute="top" secondItem="ulW-FV-IY7" secondAttribute="bottom" constant="30" id="G2j-3P-YKr"/>
+                            <constraint firstItem="Frf-rz-D0j" firstAttribute="centerY" secondItem="mZW-68-nIS" secondAttribute="centerY" id="JpC-zf-KHu"/>
+                            <constraint firstItem="6gE-9U-TmG" firstAttribute="leading" secondItem="mZW-68-nIS" secondAttribute="trailing" constant="12" id="Oee-IO-51c"/>
+                            <constraint firstItem="f2m-B1-skY" firstAttribute="centerX" secondItem="eH6-LC-92B" secondAttribute="centerX" id="aju-4R-f6M"/>
+                            <constraint firstItem="ulW-FV-IY7" firstAttribute="top" secondItem="eH6-LC-92B" secondAttribute="topMargin" constant="28" id="bwO-7f-5Az"/>
+                            <constraint firstAttribute="trailing" secondItem="NyE-gR-vGK" secondAttribute="trailing" id="cPX-Oj-oe7"/>
+                            <constraint firstItem="NyE-gR-vGK" firstAttribute="leading" secondItem="eH6-LC-92B" secondAttribute="leading" id="fnu-ky-fBN"/>
+                            <constraint firstItem="ulW-FV-IY7" firstAttribute="centerX" secondItem="eH6-LC-92B" secondAttribute="centerX" id="gbG-wv-jbU"/>
+                            <constraint firstItem="mZW-68-nIS" firstAttribute="centerX" secondItem="eH6-LC-92B" secondAttribute="centerX" id="hAH-d2-mxU"/>
+                            <constraint firstItem="f2m-B1-skY" firstAttribute="top" secondItem="ulW-FV-IY7" secondAttribute="bottom" constant="15" id="jFZ-YK-Ai6"/>
+                            <constraint firstItem="6gE-9U-TmG" firstAttribute="centerY" secondItem="mZW-68-nIS" secondAttribute="centerY" id="jk7-c1-oo8"/>
+                            <constraint firstItem="58Y-Ax-iz2" firstAttribute="top" secondItem="mZW-68-nIS" secondAttribute="bottom" constant="20" id="n1w-Ff-nYH"/>
+                            <constraint firstItem="mZW-68-nIS" firstAttribute="leading" secondItem="Frf-rz-D0j" secondAttribute="trailing" constant="12" id="zDF-Tg-fcA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ivRadarFront" destination="p7S-fN-CEa" id="Sne-RK-yxM"/>
+                        <outlet property="viLabels" destination="NyE-gR-vGK" id="jPY-ap-vhD"/>
+                        <outlet property="viRadar" destination="f2m-B1-skY" id="BuI-Bn-95P"/>
+                        <segue destination="1qO-Gb-1Rd" kind="show" identifier="artworkSegue" id="sWf-Mh-pnv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RNy-rf-gvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="946.875" y="138.38028169014083"/>
+        </scene>
+        <!--Art View Controller-->
+        <scene sceneID="IZ7-Ie-Dx3">
+            <objects>
+                <viewController id="1qO-Gb-1Rd" customClass="ArtViewController" customModule="LouvreVirtual" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q1T-6a-gyk"/>
+                        <viewControllerLayoutGuide type="bottom" id="U0F-aI-9EE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Krc-8F-9Bf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw4-ax-9Yh">
+                                <rect key="frame" x="10" y="20" width="300" height="54"/>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="40"/>
+                                <color key="textColor" red="0.8367693866" green="0.29025607640000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yRv-QU-AlP">
+                                <rect key="frame" x="0.0" y="82" width="320" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Mx8-0K-cru"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SD-lk-KFh">
+                                <rect key="frame" x="16" y="514" width="60" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="NzZ-Br-gSE"/>
+                                    <constraint firstAttribute="width" constant="60" id="sNJ-tt-8r2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Journal" family="Journal" pointSize="28"/>
+                                <state key="normal" title="Voltar">
+                                    <color key="titleColor" red="0.8367693866" green="0.29025607640000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="1qO-Gb-1Rd" eventType="touchUpInside" id="6Fb-kP-ccw"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hhu-mt-d49">
+                                <rect key="frame" x="16" y="290" width="288" height="216"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.085021219135802475" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hhu-mt-d49" firstAttribute="leading" secondItem="Krc-8F-9Bf" secondAttribute="leadingMargin" id="6bH-kI-En4"/>
+                            <constraint firstItem="2SD-lk-KFh" firstAttribute="leading" secondItem="Krc-8F-9Bf" secondAttribute="leadingMargin" id="Jsj-Aa-AYZ"/>
+                            <constraint firstItem="yRv-QU-AlP" firstAttribute="top" secondItem="hw4-ax-9Yh" secondAttribute="bottom" constant="8" id="Oxx-Ta-k5Z"/>
+                            <constraint firstItem="Hhu-mt-d49" firstAttribute="trailing" secondItem="Krc-8F-9Bf" secondAttribute="trailingMargin" id="SLS-Zt-lIg"/>
+                            <constraint firstItem="hw4-ax-9Yh" firstAttribute="top" secondItem="q1T-6a-gyk" secondAttribute="bottom" id="VSU-t6-Aam"/>
+                            <constraint firstAttribute="trailing" secondItem="hw4-ax-9Yh" secondAttribute="trailing" constant="10" id="aMc-iO-Vxe"/>
+                            <constraint firstItem="Hhu-mt-d49" firstAttribute="top" secondItem="yRv-QU-AlP" secondAttribute="bottom" constant="8" id="cRs-uy-9X6"/>
+                            <constraint firstItem="hw4-ax-9Yh" firstAttribute="leading" secondItem="Krc-8F-9Bf" secondAttribute="leading" constant="10" id="gre-mW-y4c"/>
+                            <constraint firstItem="yRv-QU-AlP" firstAttribute="leading" secondItem="Krc-8F-9Bf" secondAttribute="leading" id="hkQ-Pv-BdV"/>
+                            <constraint firstAttribute="trailing" secondItem="yRv-QU-AlP" secondAttribute="trailing" id="lMy-Tq-t25"/>
+                            <constraint firstItem="U0F-aI-9EE" firstAttribute="top" secondItem="2SD-lk-KFh" secondAttribute="bottom" constant="20" id="lfH-9w-j7e"/>
+                            <constraint firstItem="2SD-lk-KFh" firstAttribute="top" secondItem="Hhu-mt-d49" secondAttribute="bottom" constant="8" id="wzM-CA-2q3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ivImage" destination="yRv-QU-AlP" id="uhP-VB-BpF"/>
+                        <outlet property="lbName" destination="hw4-ax-9Yh" id="Aq4-Gg-cmi"/>
+                        <outlet property="tvDescription" destination="Hhu-mt-d49" id="Lso-aT-SBd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lgb-WO-niL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1731" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MainScreen" width="320" height="568"/>
+        <image name="RadarBack" width="150" height="150"/>
+        <image name="RadarFront" width="150" height="150"/>
+        <image name="TourBg" width="320" height="391"/>
+    </resources>
+</document>
